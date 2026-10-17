@@ -14,7 +14,7 @@ window.PROFILE = {
   affiliationShort: "MLVL",
   location: "Tehran, Iran",
   pronouns: "she/her",
-  email: "nstrn.zarafshan@gmail.com"
+  email: "nstrn.zarafshan@gmail.com",
 
   // -- Copy -------------------------------------------------------------------
   shortBio:
@@ -83,7 +83,7 @@ window.PROFILE = {
         "Quantitative Finance",
       ],
     },
-  ]
+  ],
 
   // -- Publications -----------------------------------------------------------
   // publications: [
