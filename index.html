@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf8">
+  <meta name="description" content="Nastaran Zarafshan — AI and Machine Learning research portfolio.">
+  <title>Nastaran Zarafshan — Research</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.png">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./content.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <div class="wrap" id="top">
+    <header class="site-header">
+      <a class="identity" href="#top" id="brand">Nastaran Zarafshan<span>.</span></a>
+      <div class="head-right">
+        <nav class="nav" aria-label="Main navigation" id="navigation">
+          <a href="#about">About</a><a href="#research">Research</a><a href="#contact">Contact</a>
+        </nav>
+        <button type="button" id="themeToggle" class="theme-toggle" aria-label="Switch to dark mode" title="Toggle appearance">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.4A8.5 8.5 0 0 1 9.6 4 8.5 8.5 0 1 0 20 14.4Z"/></svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="eyebrow" id="heroEyebrow">AI / MACHINE LEARNING</div>
+        <h1 id="heroTitle">Nastaran <em>Zarafshan.</em></h1>
+        <p class="role" id="headline"></p>
+        <p class="intro" id="intro"></p>
+        <div class="hero-actions" id="heroActions"></div>
+      </section>
+      <section class="section" id="about">
+        <div class="section-label">01 / ABOUT</div>
+        <div class="section-body">
+          <h2>A little <em>about me.</em></h2>
+          <div id="aboutText"></div>
+          <div class="socials" id="socialLinks"></div>
+        </div>
+      </section>
+      <section class="section" id="research">
+        <div class="section-label">02 / RESEARCH</div>
+        <div class="section-body">
+          <h2>Research <em>interests.</em></h2>
+          <div class="research-list" id="researchList"></div>
+        </div>
+      </section>
+      <section class="section" id="publications" hidden>
+        <div class="section-label">03 / PUBLICATIONS</div>
+        <div class="section-body"><h2>Selected <em>publications.</em></h2><div class="entry-list" id="publicationsList"></div></div>
+      </section>
+      <section class="section" id="projects" hidden>
+        <div class="section-label">04 / PROJECTS</div>
+        <div class="section-body"><h2>Selected <em>projects.</em></h2><div class="entry-list" id="projectsList"></div></div>
+      </section>
+      <section class="section" id="experience" hidden>
+        <div class="section-label">05 / EXPERIENCE</div>
+        <div class="section-body"><h2>Experience & <em>education.</em></h2><div class="entry-list" id="experienceList"></div></div>
+      </section>
+      <section class="section" id="teaching" hidden>
+        <div class="section-label">06 / TEACHING</div>
+        <div class="section-body"><h2>Selected <em>teaching.</em></h2><div class="entry-list" id="teachingList"></div></div>
+      </section>
+      <section class="section" id="news" hidden>
+        <div class="section-label">07 / NEWS</div>
+        <div class="section-body"><h2>Recent <em>updates.</em></h2><div class="entry-list" id="newsList"></div></div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="tiny-label">CONTACT</div>
+        <h2>Let's exchange <em>ideas.</em></h2>
+        <p>Interested in research or collaboration? Feel free to get in touch.</p>
+        <div id="contactLinks" class="contact-links"></div>
+      </section>
+    </main>
+    <footer class="footer"><span>© <span id="year"></span> <span id="footerName">Nastaran Zarafshan</span></span><span>Research · Curiosity · Building</span><a href="#top">Back to top ↑</a></footer>
+  </div>
+</body>
+</html>
